@@ -30,7 +30,7 @@ $this->lib_autentique->folder()->move("UUID DA PASTA", "UUID DO DOCUMENTO");
 $this->lib_autentique->folder()->delete("UUID DA PASTA");
 ```
 
-## Manipulando Documento
+## Manipulando Documentos
 
 ### Criado Documento
 ```php
