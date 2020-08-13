@@ -1,0 +1,1 @@
+mutation { deleteDocument(id: "$id") }

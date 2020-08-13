@@ -1,0 +1,1 @@
+query { folder(id: "$id") { id name type created_at } }
