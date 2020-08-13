@@ -9,7 +9,7 @@ $this->load->library("MY_Autentique", array(), "lib_autentique");
 
 ## Manipulando Pastas
 
-### Criado Pasta
+### Criar Pasta
 ```php
  $this->lib_autentique->folder()->create("Nome da Pasta");
 ```
@@ -17,7 +17,7 @@ $this->load->library("MY_Autentique", array(), "lib_autentique");
 ```php
 $this->lib_autentique->folder()->get("UUID DA PASTA");	
 ```
-### Listar Documentos da Pastas
+### Listar Documentos da Pasta
 ```php
 $this->lib_autentique->folder()->listDocuments("UUID DA PASTA");
 ```
@@ -32,7 +32,7 @@ $this->lib_autentique->folder()->delete("UUID DA PASTA");
 
 ## Manipulando Documentos
 
-### Criado Documento
+### Criar Documento
 ```php
 $this->lib_autentique->document()->create(
 [
